@@ -1,0 +1,7 @@
+To run pytest with reports simply use:
+"pytest --template=html1/index.html --report=report.html" - this will generate simple & beautiful html report.Open it
+with your favourite browser.
+
+USEFUL COMMANDS:
+- "playwright codegen [url]" - supercool playwright's code generator/inspector that shows where would it click when
+  simply hoovering over items. It has a lot more stuff than we actually need.
