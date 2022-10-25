@@ -221,4 +221,4 @@ def test_shadow_dom(page):
     clipboard_paste = pyperclip.paste()  # pyperclip is simple module for clipboard management
     input_field_value = page.locator('id=editField')
 
-    expect(input_field_value).to_have_value(clipboard_paste)  # for macOS only
+    expect(input_field_value).to_have_value(clipboard_paste)
