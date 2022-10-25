@@ -1,5 +1,4 @@
 import time
-
 import pyperclip
 from playwright.sync_api import expect
 
@@ -223,5 +222,3 @@ def test_shadow_dom(page):
     input_field_value = page.locator('id=editField')
 
     expect(input_field_value).to_have_value(clipboard_paste)  # for macOS only
-
-# COMING NEXT - PAGE OBJECT PATTERN
